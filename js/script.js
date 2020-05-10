@@ -358,7 +358,7 @@ function mute() {
 
 function getStreamingData() {
     var xhttp = new XMLHttpRequest();
-    var urlRequest = (!DEMO) ? 'api.php' : 'https://server.hbmil.xyz/api.php';
+    var urlRequest = (!DEMO) ? 'api.php' : 'https://thebeat.000webhostapp.com/pla-master/api.php';
     xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             var data = JSON.parse(this.responseText);
